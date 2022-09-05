@@ -3,3 +3,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.my-btn, .my-empty-btn {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.my-btn {
+    background-color: #038384;
+}
+
+.my-empty-btn {
+    border: 1px solid #038384;
+}

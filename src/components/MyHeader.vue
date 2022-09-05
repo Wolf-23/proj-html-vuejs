@@ -1,22 +1,21 @@
 <template>
   <header>
     <MyHeaderTop/>
+    <MyHeaderBottom/>
   </header>
 </template>
 
 <script>
 import MyHeaderTop from './MyHeaderTop.vue';
+import MyHeaderBottom from './MyHeaderBottom.vue';
 export default {
     name: "MyHeader",
     components: { 
-        MyHeaderTop 
+        MyHeaderTop,
+        MyHeaderBottom
     }
 }
 </script>
 
 <style lang="scss">
-    header {
-        height: 100px;
-        background-color: red;
-    }
 </style>

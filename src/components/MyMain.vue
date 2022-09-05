@@ -1,12 +1,16 @@
 <template>
   <main>
-    
+    <MyWhoWeAre/>
   </main>
 </template>
 
 <script>
+import MyWhoWeAre from './MyWhoWeAre.vue';
 export default {
-    name: 'MyMain'
+    name: "MyMain",
+    components: { 
+      MyWhoWeAre 
+    }
 }
 </script>
 
