@@ -3,6 +3,8 @@
     <MyWhoWeAre/>
     <MyServices/>
     <MyLogistical/>
+    <MyResults/>
+    <MyFeedback/>
   </main>
 </template>
 
@@ -10,12 +12,16 @@
   import MyWhoWeAre from './MyWhoWeAre.vue';
   import MyServices from './MyServices.vue';
 import MyLogistical from './MyLogistical.vue';
+import MyResults from './MyResults.vue';
+import MyFeedback from './MyFeedback.vue';
   export default {
     name: "MyMain",
     components: {
     MyWhoWeAre,
     MyServices,
-    MyLogistical
+    MyLogistical,
+    MyResults,
+    MyFeedback
 }
   }
 </script>

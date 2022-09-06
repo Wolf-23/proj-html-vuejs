@@ -99,7 +99,7 @@
                 border-radius: 15px;
                 position: relative;
                 .icon-bg {
-                    background-color: rgba(3, 131, 132, 0.3);;
+                    background-color: rgba(3, 131, 132, 0.3);
                     width: 50px;
                     height: 50px;
                     border-radius: 50%;

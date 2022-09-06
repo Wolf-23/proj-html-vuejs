@@ -121,7 +121,7 @@
         .my-text {
             padding-top: 80px;
             width: 30%;
-            z-index: 10;
+            z-index: 11;
             position: relative;
             h4 {
                 color: $brandColorLight;
@@ -144,7 +144,7 @@
                 padding: 0 15px;
                 display: inline-block;
                 a {
-                    padding: 10px 20px;
+                    padding: 10px 10px;
                 }
             }
         }

@@ -83,7 +83,7 @@
                     font-size: 35px;
                     padding-bottom: 10px;
                     span {
-                        padding: 0 5px;
+                        margin: 0 5px 0 0;
                     }
                 }
                 p {
