@@ -63,7 +63,7 @@
     @import '../styles/vars.scss';
   section {
     height: 600px;
-    background-color: #0e0e12;
+    background-color: #111117;
     .container {
         padding: 70px 0;
         h3 {
@@ -81,6 +81,7 @@
         }
         .services-parag {
             display: flex;
+            align-items: center;
             padding-bottom: 40px;
             p {
                 width: 80%;
