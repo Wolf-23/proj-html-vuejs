@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <MyHeader/>
+    <MyHeader :contacts="contacts"/>
     <MyMain/>
     <MyFooter/>
   </div>
@@ -17,33 +17,30 @@ export default {
     MyHeader,
     MyMain,
     MyFooter
+  },
+  data() {
+    return {
+      contacts: {
+        clock: {
+              icon: 'fa-solid fa-clock',
+              text: 'Open Hours: Mon - Sat - 9:00 - 18:00'
+          },
+        phone: {
+            icon: 'fa-solid fa-phone',
+            text: '+1 (305) 1234-5678'
+          },
+        email: {
+            icon: 'fa-solid fa-envelope',
+            text: 'hello@example.com'
+          },
+        maps: {
+            icon: 'fa-solid fa-location-dot',
+            text: 'Main Avenue, 987'
+          },
+        }
+    }
   }
-    //   contacts: {
-    //     clock: [
-    //       {
-    //           icon: 'fa-solid fa-clock',
-    //           text: 'Open Hours: Mon - Sat - 9:00 - 18:00'
-    //       }
-    //     ],
-    //     phone: [
-    //       {
-    //         icon: 'fa-solid fa-phone',
-    //         text: '+1 (305) 1234-5678'
-    //       }
-    //     ],
-    //     email: [
-    //       {
-    //         icon: 'fa-solid fa-envelope',
-    //         text: 'hello@example.com'
-    //       }
-    //     ],
-    //     maps: [
-    //       {
-    //         icon: 'fa-solid fa-location-dot',
-    //         text: 'Main Avenue, 987'
-    //       }
-    //     ],
-    //     }
+      
   }
 </script>
 

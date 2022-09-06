@@ -4,7 +4,7 @@
         <div class="left">
             <h3>Who We Are</h3>
             <h2>
-                <span class="excellence">
+                <span class="bg-green">
                     <i class="fa-regular fa-gem"></i>
                     Excellence
                 </span>
@@ -76,18 +76,14 @@
                 h3 {
                     color: $brandColorLight;
                     padding-bottom: 10px;
+                    text-transform: uppercase;
+                    font-size: 14px;
                 }
                 h2 {
                     font-size: 35px;
                     padding-bottom: 10px;
                     span {
                         padding: 0 5px;
-                    }
-                    .excellence {
-                        color: $brandColorDark;
-                        background-color: rgba(3, 131, 132, 0.3);
-                        padding: 5px;
-                        border-radius: 5px;
                     }
                 }
                 p {

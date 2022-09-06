@@ -73,11 +73,23 @@
         background-repeat: no-repeat;
         height: 600px;
         position: relative;
+        &::after {
+            content: '';
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba($color: #000000, $alpha: 0.5);
+            z-index: 0;
+        }
         nav {
             display: flex;
             justify-content: space-between;
             align-items: center;
             padding: 25px 10px 0;
+            z-index: 10;
+            position: relative;
             .brand {
                 font-size: 20px;
                 letter-spacing: 3px;
@@ -109,6 +121,8 @@
         .my-text {
             padding-top: 80px;
             width: 30%;
+            z-index: 10;
+            position: relative;
             h4 {
                 color: $brandColorLight;
                 text-transform: uppercase;

@@ -3,17 +3,17 @@
         <div class="container">
             <!-- Possibilità di recuperare i valori da un Array per essere riutilizzabili  -->
             <div class="open">
-                <i class="fa-solid fa-clock"></i>
-                <span>Open Hours: Mon - Sat - 9:00 - 18:00</span>
+                <i :class="contacts.clock.icon"></i>
+                <span>{{contacts.clock.text}}</span>
             </div>
             <div class="right">
                 <div class="phone-number">
-                    <i class="fa-solid fa-phone"></i>
-                    <span>+1 (305) 1234-5678</span>
+                    <i :class="contacts.phone.icon"></i>
+                    <span>{{contacts.phone.text}}</span>
                 </div>
                 <div class="email">
-                    <i class="fa-solid fa-envelope"></i>
-                    <span>hello@example.com</span>
+                    <i :class="contacts.email.icon"></i>
+                    <span>{{contacts.email.text}}</span>
                 </div>
                 <div><i class="fa-brands fa-facebook-f"></i></div>
                 <div><i class="fa-brands fa-twitter"></i></div>
@@ -26,6 +26,9 @@
   <script>
   export default {
       name: 'MyHeaderTop',
+      props: {
+            contacts: Object
+        }
     }
   </script>
   
