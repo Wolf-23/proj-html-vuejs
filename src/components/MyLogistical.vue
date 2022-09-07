@@ -14,27 +14,27 @@
         </div>
         <div class="cards">
             <div class="card">
-                <span>01</span>
+                <span class="bg-rounded">01</span>
                 <h3>Collection of information</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
             <div class="card">
-                <span>02</span>
+                <span class="bg-rounded">02</span>
                 <h3>Service Invoice Sending</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
             <div class="card">
-                <span>03</span>
+                <span class="bg-rounded">03</span>
                 <h3>Withdrawal of Cargo</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
             <div class="card">
-                <span>04</span>
+                <span class="bg-rounded">04</span>
                 <h3>Transport Customer Order</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
             <div class="card">
-                <span>05</span>
+                <span class="bg-rounded">05</span>
                 <h3>Successful Delivery</h3>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
             </div>
@@ -74,16 +74,8 @@ export default {
                 height: 200px;
                 padding: 0 50px;
                 span {
-                    display: inline-block;
-                    margin-bottom: 20px;
                     color: $brandColorDark;
-                    font-size: 20px;
-                    font-weight: bold;
-                    background-color: rgba(3, 131, 132, 0.1);
-                    border-radius: 50%;
-                    height: 35px;
-                    width: 35px;
-                    line-height: 35px;
+                    margin-bottom: 15px;
                 }
                 h3 {
                     padding-bottom: 20px;

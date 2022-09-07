@@ -17,7 +17,7 @@
             <!-- Possibilità di renderlo un unico componente -->
             <div class="cards">
                 <div class="card">
-                    <div class="icon-bg">
+                    <div class="icon-bg bg-rounded">
                         <i class="fa-solid fa-truck-ramp-box"></i>
                     </div>
                     <h4>Tecnology</h4>
@@ -28,7 +28,7 @@
                 </div>
 
                 <div class="card centred-card">
-                    <div class="icon-bg">
+                    <div class="icon-bg bg-rounded">
                         <i class="fa-solid fa-temperature-low"></i>
                     </div>
                     <h4>Reefer Cargo</h4>
@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="card">
-                    <div class="icon-bg">
+                    <div class="icon-bg bg-rounded">
                         <i class="fa-solid fa-boxes-stacked"></i>
                     </div>
                     <h4>Dry Cargo</h4>
@@ -86,12 +86,9 @@
                 border-radius: 15px;
                 position: relative;
                 .icon-bg {
-                    background-color: rgba(3, 131, 132, 0.3);
                     width: 50px;
                     height: 50px;
-                    border-radius: 50%;
                     line-height: 25px;
-                    text-align: center;
                     padding: 10px;
                     font-size: 25px;
                     color: $brandColorLight;

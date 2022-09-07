@@ -39,15 +39,15 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, perspiciatis?</p>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto, perspiciatis?</p>
             <div class="phone-number">
-                <i :class="contacts.phone.icon"></i>
+                <i :class="contacts.phone.icon" class="bg-rounded"></i>
                 <span>{{contacts.phone.text}}</span>
             </div>
             <div class="email">
-                <i :class="contacts.email.icon"></i>
+                <i :class="contacts.email.icon" class="bg-rounded"></i>
                 <span>{{contacts.email.text}}</span>
             </div>
             <div class="maps">
-                <i :class="contacts.maps.icon"></i>
+                <i :class="contacts.maps.icon" class="bg-rounded"></i>
                 <span>{{contacts.maps.text}}</span>
             </div>
             <a href="#" class="my-empty-btn">View Map</a>
@@ -126,17 +126,8 @@
                     span {
                         color: $brandColorDark;
                     }
-                    i {
-                        display: inline-block;
-                        margin-right: 10px;
+                    .bg-rounded {
                         color: $brandColorDark;
-                        font-weight: bold;
-                        background-color: rgba(3, 131, 132, 0.1);
-                        border-radius: 50%;
-                        height: 35px;
-                        width: 35px;
-                        line-height: 35px;
-                        text-align: center;
                     }
                 }
                 a.my-empty-btn {

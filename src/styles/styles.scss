@@ -55,3 +55,15 @@ h2 {
 .white {
     color: #fff;
 }
+
+.bg-rounded {
+    display: inline-block;
+    margin-right: 10px;
+    font-weight: bold;
+    background-color: rgba(3, 131, 132, 0.1);
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    text-align: center;
+}

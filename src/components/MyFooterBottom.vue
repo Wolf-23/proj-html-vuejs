@@ -13,6 +13,9 @@
           </span>
         </div>
       </div>
+      <div class="top-of-page white">
+        <i class="fa-solid fa-arrow-up bg-rounded"></i>
+      </div>
     </section>
   </template>
   
@@ -26,6 +29,7 @@
     section {
       height: 80px;
       background-color: #000;
+      position: relative;
       .container {
         display: flex;
         height: 100%;
@@ -38,6 +42,12 @@
             color: $brandColorLight;
           }
         }
+      }
+      .top-of-page {
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translate(-50%, -50%);
       }
     }
   </style>
