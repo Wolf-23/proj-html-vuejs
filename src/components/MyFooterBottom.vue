@@ -13,8 +13,10 @@
           </span>
         </div>
       </div>
-      <div class="top-of-page white">
-        <i class="fa-solid fa-arrow-up bg-rounded"></i>
+      <div class="top-of-page">
+        <a href="#">
+          <i class="fa-solid fa-arrow-up bg-rounded"></i>
+        </a>
       </div>
     </section>
   </template>
@@ -48,6 +50,10 @@
         top: 50%;
         right: 20px;
         transform: translate(-50%, -50%);
+        .bg-rounded {
+          background-color: rgb(46, 46, 46);
+          color: $brandColorDark;
+        }
       }
     }
   </style>
