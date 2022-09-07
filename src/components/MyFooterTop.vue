@@ -175,20 +175,7 @@
                 justify-content: space-between;
                 .card-text {
                     .brand {
-                        font-size: 20px;
-                        letter-spacing: 3px;
-                        font-weight: bold;
                         margin-bottom: 30px;
-                        .brand-nex {
-                            color: $brandColorLight;
-                            background-color:rgba(3, 131, 132, 0.4);
-                            padding: 10px 0 10px 25px;
-                            border-radius: 50px 0 0 50px;
-                        }
-                        .brand-gen {
-                            color: #fff;
-                            padding-left: 5px;
-                        }
                     }
                     p {
                         padding-bottom: 20px;

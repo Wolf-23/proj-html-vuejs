@@ -1,12 +1,12 @@
 <template>
     <section>
         <div class="container">
-            <h3>Road Transport</h3>
+            <h3 class="myPreTitle">Road Transport</h3>
             <h2>
-                <span>
+                <span class="white">
                     Main
                 </span>
-                <span class="bg-green">
+                <span class="bg-green white">
                     Services
                 </span>
             </h2>
@@ -66,19 +66,6 @@
     background-color: #111117;
     .container {
         padding: 70px 0;
-        h3 {
-            color: $brandColorLight;
-            text-transform: uppercase;
-            font-size: 14px;
-            padding-bottom: 10px;
-        }
-        h2 {
-            font-size: 35px;
-            padding-bottom: 20px;
-            span {
-                color: #fff;
-            }
-        }
         .services-parag {
             display: flex;
             align-items: center;

@@ -1,0 +1,57 @@
+.my-btn, .my-empty-btn {
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.my-btn {
+    background-color: #038384;
+}
+
+.my-empty-btn {
+    border: 1px solid #038384;
+}
+
+.bg-green {
+    color: #038384;
+    background-color: rgba(3, 131, 132, 0.2);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.brand {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    .brand-nex {
+        color: $brandColorLight;
+        background-color:rgba(3, 131, 132, 0.4);
+        padding: 10px 0 10px 25px;
+        border-radius: 50px 0 0 50px;
+    }
+    .brand-gen {
+        color: #fff;
+        padding-left: 5px;
+    }
+}
+
+h3.myPreTitle {
+    color: $brandColorLight;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 35px;
+    padding-bottom: 10px;
+    span {
+        margin: 0 5px 0 0;
+    }
+}
+
+.white {
+    color: #fff;
+}

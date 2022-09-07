@@ -1,12 +1,12 @@
 <template>
   <section>
     <div class="container"> 
-        <h3>What Are We Doing</h3>
+        <h3 class="myPreTitle">What Are We Doing</h3>
         <h2>
-            <span class="bg-green">
+            <span class="bg-green white">
                 Results
             </span>
-            <span>
+            <span class="white">
                 in Numbers
             </span>
         </h2>
@@ -49,19 +49,6 @@
         .container {
             padding: 70px 0;
             text-align: center;
-            h3 {
-                text-transform: uppercase;
-                font-size: 14px;
-                padding-bottom: 20px;
-                color: #52bbbb;
-            }
-            h2 .bg-green, h2 {
-                color: #fff;
-                font-size: 35px;
-                span {
-                    margin: 0 5px 0 0;
-                }
-            }
             .cards {
                 padding-top: 40px;
                 display: flex;

@@ -2,7 +2,7 @@
   <section>
     <div class="container">
         <div class="left">
-            <h3>Send a Message</h3>
+            <h3 class="myPreTitle">Send a Message</h3>
             <h2>
                 <span>
                     Get in 
@@ -75,23 +75,11 @@
             display: flex;
             .left {
                 width: 70%;
-                h3 {
-                    text-transform: uppercase;
-                    font-size: 14px;
-                    padding-bottom: 20px;
-                    color: #52bbbb;
-                }
-                h2 .bg-green, h2 {
-                    font-size: 35px;
-                    margin-bottom: 20px;
-                    span {
-                        margin: 0 5px 0 0;
-                    }
-                }
                 p {
                     font-size: 13px;
                     color: gray;
                     padding-bottom: 20px;
+                    padding-top: 20px;
                 }
                 form {
                     width: 80%;

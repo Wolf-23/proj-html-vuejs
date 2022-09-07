@@ -2,12 +2,12 @@
     <section>
         <div class="container">
             <div class="centred-text">
-                <h3>Customer Testimonials</h3>
+                <h3 class="myPreTitle">Customer Testimonials</h3>
                 <h2>
-                    <span>
+                    <span class="white">
                         Trusted
                     </span>
-                    <span class="bg-green">
+                    <span class="bg-green white">
                         Feedback
                     </span>
                 </h2>
@@ -63,19 +63,6 @@
         padding: 60px 0;
         .centred-text {
             text-align: center;
-            h3 {
-                color: $brandColorLight;
-                text-transform: uppercase;
-                font-size: 12px;
-                padding-bottom: 20px;
-            }
-            h2 {
-                font-size: 35px;
-                padding-bottom: 20px;
-                span {
-                    color: #fff;
-                }
-            }
             .services-parag {
                 display: flex;
                 justify-content: center;

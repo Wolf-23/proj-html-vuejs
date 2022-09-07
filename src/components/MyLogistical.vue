@@ -1,7 +1,7 @@
 <template>
   <section>
         <div class="logistical-text">
-            <h3>How it works in practice</h3>
+            <h3 class="myPreTitle">How it works in practice</h3>
             <h2>
                 <span class="bg-green">
                     Logistical
@@ -51,28 +51,16 @@ export default {
 <style lang="scss" scoped>
     @import '../styles/vars.scss';
     section {
-        height: 500px;
+        height: 600px;
         background-color: #EEF4ED;
         padding: 90px 0;
         .logistical-text {
             text-align: center;
-            h3 {
-                text-transform: uppercase;
-                font-size: 14px;
-                padding-bottom: 20px;
-                color: $brandColorLight;
-            }
-            h2 {
-                font-size: 35px;
-                padding-bottom: 20px;
-                span {
-                    margin: 0 5px 0 0;
-                }
-            }
             p {
                 width: 50%;
                 margin: 0 auto;
                 color: gray;
+                padding-top: 15px;
             }
         }
         .cards {

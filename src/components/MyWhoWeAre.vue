@@ -2,7 +2,7 @@
     <section>
       <div class="container">
         <div class="left">
-            <h3>Who We Are</h3>
+            <h3 class="myPreTitle">Who We Are</h3>
             <h2>
                 <span class="bg-green">
                     <i class="fa-regular fa-gem"></i>
@@ -36,7 +36,7 @@
                     <h4>Max Weight 1200 Kg</h4>
                 </div>
             </div>
-            <div class="truck">
+            <div class="truck truck-center">
                 <img class="img-truck" src="../assets/images/truck-1.png" alt="Veicolo">
                 <div class="truck-features">
                     <h3>Medium</h3>
@@ -73,19 +73,6 @@
             padding: 70px 0;
             .left{
                 width: 70%;
-                h3 {
-                    color: $brandColorLight;
-                    padding-bottom: 10px;
-                    text-transform: uppercase;
-                    font-size: 14px;
-                }
-                h2 {
-                    font-size: 35px;
-                    padding-bottom: 10px;
-                    span {
-                        margin: 0 5px 0 0;
-                    }
-                }
                 p {
                     margin-bottom: 20px;
                     color: grey;
@@ -115,8 +102,7 @@
                 .truck {
                     display: flex;
                     align-items: center;
-                    padding-bottom: 10px;
-                    border-bottom: 1px solid grey;
+                    padding: 10px 0;
                     margin-bottom: 10px;
                     .img-truck {
                         width: 90px;
@@ -131,6 +117,10 @@
                             font-weight: 100;
                         }
                     }
+                }
+                .truck-center {
+                    border-bottom: 1px solid grey;
+                    border-top: 1px solid grey;
                 }
                 .certification {
                     width: 120px;

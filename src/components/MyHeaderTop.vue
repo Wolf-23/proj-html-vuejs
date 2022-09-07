@@ -43,6 +43,7 @@
             justify-content: space-between;
             align-items: center;
             color: lightgrey;
+            font-size: 14px;
             i {
                 padding-right: 10px;
                 font-size: 14px;
