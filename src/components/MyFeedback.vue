@@ -60,7 +60,7 @@
     height: 600px;
     background-color: #111117;
     .container {
-        padding: 70px 0;
+        padding: 60px 0;
         .centred-text {
             text-align: center;
             h3 {

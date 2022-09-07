@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <MyHeader :contacts="contacts"/>
-    <MyMain/>
-    <MyFooter/>
+    <MyMain :contacts="contacts"/>
+    <MyFooter :contacts="contacts"/>
   </div>
 </template>
 
